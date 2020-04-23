@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D0E10125244B657100C033C7"
-               BuildableName = "TipDecider.app"
+               BuildableName = "Gratipity.app"
                BlueprintName = "TipDecider"
                ReferencedContainer = "container:TipDecider.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0E10125244B657100C033C7"
-            BuildableName = "TipDecider.app"
+            BuildableName = "Gratipity.app"
             BlueprintName = "TipDecider"
             ReferencedContainer = "container:TipDecider.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D0E10125244B657100C033C7"
-            BuildableName = "TipDecider.app"
+            BuildableName = "Gratipity.app"
             BlueprintName = "TipDecider"
             ReferencedContainer = "container:TipDecider.xcodeproj">
          </BuildableReference>
