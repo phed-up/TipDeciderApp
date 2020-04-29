@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D04E7AF824590DC500427B64 /* designableSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04E7AF724590DC500427B64 /* designableSlider.swift */; };
 		D0E1012A244B657100C033C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E10129244B657100C033C7 /* AppDelegate.swift */; };
 		D0E1012C244B657100C033C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E1012B244B657100C033C7 /* SceneDelegate.swift */; };
 		D0E1012E244B657100C033C7 /* CalculateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0E1012D244B657100C033C7 /* CalculateViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D04E7AF724590DC500427B64 /* designableSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = designableSlider.swift; sourceTree = "<group>"; };
 		D0E10126244B657100C033C7 /* Gratipity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gratipity.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0E10129244B657100C033C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0E1012B244B657100C033C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			children = (
 				D0E10129244B657100C033C7 /* AppDelegate.swift */,
 				D0E1012B244B657100C033C7 /* SceneDelegate.swift */,
+				D04E7AF724590DC500427B64 /* designableSlider.swift */,
 				D0E1012D244B657100C033C7 /* CalculateViewController.swift */,
 				D0E1013D244BCC1800C033C7 /* ResultsViewController.swift */,
 				D0E1012F244B657100C033C7 /* Main.storyboard */,
@@ -145,6 +148,7 @@
 				D0E1012A244B657100C033C7 /* AppDelegate.swift in Sources */,
 				D0E1012C244B657100C033C7 /* SceneDelegate.swift in Sources */,
 				D0E1013E244BCC1800C033C7 /* ResultsViewController.swift in Sources */,
+				D04E7AF824590DC500427B64 /* designableSlider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,12 +293,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = Z9PP95CL6Z;
 				INFOPLIST_FILE = TipDecider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fed-app.TipDecider";
 				PRODUCT_NAME = Gratipity;
 				SWIFT_VERSION = 5.0;
@@ -307,12 +313,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.1;
 				DEVELOPMENT_TEAM = Z9PP95CL6Z;
 				INFOPLIST_FILE = TipDecider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fed-app.TipDecider";
 				PRODUCT_NAME = Gratipity;
 				SWIFT_VERSION = 5.0;
