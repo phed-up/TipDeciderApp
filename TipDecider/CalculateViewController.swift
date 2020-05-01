@@ -33,6 +33,12 @@ class CalculateViewController: UIViewController {
         
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        billTotal.becomeFirstResponder()
+        
+    }
+    
     
     @IBAction func serviceSliderChanged(_ sender: designableSlider) {
         
