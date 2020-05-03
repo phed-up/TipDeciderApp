@@ -25,6 +25,8 @@ class CalculateViewController: UIViewController {
     var splitAmount = 1.0
     var dividedPayment = 0.0
     
+    var url = "https://phed-up.wixsite.com/fedapp"
+    
     
     
     
@@ -38,6 +40,13 @@ class CalculateViewController: UIViewController {
         billTotal.becomeFirstResponder()
         
     }
+    
+    @IBAction func shareAppButtonPressed(_ sender: UIButton) {
+        
+        let share = UIActivityViewController(activityItems: [url], applicationActivities: nil)
+              present(share, animated: true)
+    }
+    
     
     
     @IBAction func serviceSliderChanged(_ sender: designableSlider) {

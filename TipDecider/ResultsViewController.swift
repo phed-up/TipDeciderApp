@@ -47,8 +47,16 @@ class ResultsViewController: UIViewController {
         
         dismiss(animated: true, completion: nil)
         
+    }
+    
+    @IBAction func shareButtonPressed(_ sender: UIButton) {
+        
+        let activityController = UIActivityViewController(activityItems: [eachPersonPayAmount.text!], applicationActivities: nil)
+              present(activityController, animated: true)
+        
         
     }
+    
     
     
 }
