@@ -25,7 +25,7 @@ class CalculateViewController: UIViewController {
     var splitAmount = 1.0
     var dividedPayment = 0.0
     
-    var url = "https://phed-up.wixsite.com/fedapp"
+    var url = "https://apps.apple.com/us/app/gratipity/id1509368374?ls=1"
     
     
     
